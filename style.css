@@ -1,0 +1,655 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk";
+}
+/* hedhi partie lheader wl nav bar */
+span{
+    color:#A020F0;
+}
+header img{
+    width: 50px;
+    height: 60px;
+    padding-top: 10px;
+    transform: translateX(80px);
+}
+header{
+    font-family: "Space Grotesk";
+    font-weight: 800; 
+    background-color: #0b0f19e4;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 70px;
+    position: fixed;
+    width: 100%;
+    z-index: 8;
+}
+header h1{
+    color: #F8F9FA;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 550; 
+    font-size: 15px;
+    line-height: 75px;
+}
+nav a:hover{
+    color: #ffffffa9;
+}
+
+.buttons button{
+    background: linear-gradient(45deg, #0078D4, #00E5FF);
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px;
+    font-family: "Montserrat";
+}
+.buttons button:hover{
+    background: linear-gradient(45deg, #ffffff, #ffffff);
+    
+}
+
+/* main contains the postionning of the elements and elements */
+main{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #0B0F19, #1E1E1E);
+    color: white;
+}
+main img{
+    float: right;
+    width: 500px;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ /* this part is for styling the text in the main page  */
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    height: 70%;
+
+}
+.text p{
+    color: #ffffffa8;
+    font-family: "Montserrat";
+    text-align: center;
+    line-height: 35px;
+}
+.text h1{
+    font-family: "Space Grotesk";
+    font-weight: 800; 
+    font-size: 48px;
+}
+
+.bt{
+    width: 70%;;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+}
+.bt button{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid #A020F0;
+    cursor: pointer;
+    font-family: "Space Grotesk";
+    font-size: 17px;
+    
+}
+.bt button:hover{
+    background-color: #A020F0;
+    color: #F8F9FA;
+}
+
+.divider {
+    height: 3px;
+    width: 700px;
+    background: linear-gradient(90deg, transparent, #000000fe, transparent);
+    margin: 20px auto;
+}
+
+/* this part is for the about us section */
+.aboutus{
+    height: 83vh;
+    color: #0B0F19;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.aboutus h1{
+    font-size: 40px;
+}
+.aboutus p{
+    font-size: 20px;
+    text-align: center;
+    color: #0b0f19aa;
+    text-align: center;
+}
+.aboutus .content ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.boxes p{
+    font-size: 17px;
+    color: #040000;
+    font-weight: 700;
+}
+.box1,.box2,.box3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    border-top: 3px solid rgb(200, 158, 255);
+    
+}
+.boxes img{
+    width: 50px;
+}
+.box1 img,.box2 img,.box3 img{
+    width: 60px;
+    height: 60px;
+}
+.box1:hover,.box2:hover,.box3:hover{
+    border-top: 3px solid rgb(0, 0, 0)
+}
+
+/* now our courses sections styling */
+.courses{
+    height: 170vh;
+    background: linear-gradient(to bottom, #0B0F19, #1E1E1E);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glasswin{
+    width: 90%;
+    margin: auto;
+    height: 90%;
+    background-color: rgba(255, 255, 255, 0.118);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.glasswin h1{
+    font-size: 45px;
+    line-height: 90px;
+}
+.glasswin p{
+    color: #ffffffc7;
+}
+.glasswin img{
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+}
+.sbs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+section .sb1,.sb2,.sb3,.sb4,.sb5,.sb6{
+    width:30%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0400003e;
+    border-radius: 30px;
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+}
+section .sb1:hover,.sb2:hover,.sb3:hover,.sb4:hover,.sb5:hover,.sb6:hover{
+    border: 5px solid purple;
+}
+/* styling stars for the courses  */
+.stars img{
+    width: 20px;
+    height: 20px;
+}
+/* small banner for studenst enrollments in our courses */
+.info{
+    height: 50vh;
+    background-color:#1E1E1E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 23px;
+    font-weight: bold;
+}
+.info img{
+    width: 80px;
+    height: 80px;
+}
+.b1,.b2,.b3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+    border-top: 1px solid rgb(255, 255, 255);
+    padding-top: 20px;
+    width: 30%;
+}
+.b1:hover,.b2:hover,.b3:hover{
+    background-color: #ffffff0f;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+/* style mt3 section newss */
+.news{
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    color: #1E1E1E;
+    width: 80%;
+    margin: auto;
+}
+.news h1{
+    font-size: 60px;
+    margin-top: 70px;
+}
+.news p{
+    color: rgba(0, 0, 0, 0.688);
+}
+.boxesn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+.boxesn img{
+    width: 100%;
+    height: 200px;
+}
+.boxnews1,.boxnews2{
+    background-color: #ffffff4b;
+    border: 2px solid black;
+    width: 45%;
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.boxnews1 p:first-child,.boxnews2 p:first-child{
+    color: #ca1212;
+}
+.boxnews1:hover,.boxnews2:hover{
+    transform: rotate(-1deg);
+    transition: 50ms ease-in;
+}
+
+.boxnews1 button,.boxnews2 button{
+    width: 140px;
+    height: 50px;
+    background-color: #1E1E1E;
+    cursor: pointer;
+}
+.boxnews1 button:hover,.boxnews2 button:hover{
+    width: 140px;
+    height: 50px;
+    background-color: #6f00ff;
+}
+.boxnews1 button a,.boxnews2 button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+ /* styling mt3 insctructors sectionn */
+
+ .instructors{
+    height: 110vh;
+    background: linear-gradient(to bottom, #0B0F19, #1E1E1E);
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+ }
+ .instructors h1{
+    line-height: 190px;
+    font-size: 43px;
+ }
+ .instructors .boxes p{color: white;}
+ .instructors .boxes{
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+ }
+ .instructors .boxes img{
+    width: 250px;
+    opacity: 0.8;
+    border-radius: 15px;
+    padding-bottom: 20px;
+ }
+
+ /* reviews section */
+ .reviews{
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    color: #0B0F19;
+    padding-top: 50px;
+ }
+ .reviews h1{
+    font-size: 40px;
+ }
+ .rev{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 100%;
+ }
+ .rev1,.rev2,.rev3,.rev4{
+    width: 22%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 5px solid rgba(235, 229, 48, 0.411);
+    padding: 10px;
+    transform: skew(-2deg);
+ }
+ .rev p{
+    line-height: 23px;
+    width: 90%;
+ }
+ .rev img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: relative;
+    left: -30px;
+    top: -30px;
+ }
+ .rev1:hover,.rev2:hover,.rev3:hover,.rev4:hover{
+    background-color: yellow;
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.667);
+ }
+
+ /* lena bch nabda contact section */
+ .contact{
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    background-color: #1E1E1E;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+ }
+ .contact h1{
+    font-size: 43px;
+    line-height: 60px;
+    margin-top: 80px;
+ }
+ .contact p{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    line-height: 40px;
+ }
+ .wbox{
+    background-color: rgba(255, 255, 255, 0.212);
+    height: 60%;
+    width: 80%;
+    margin: auto;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+ }
+ fieldset{
+    border: none;
+    width: 100%;
+    height: 100%;
+ }
+ form{
+    width: 100%;
+    height: 100%;
+ }
+ .wbox label{
+    font-size: 20px;
+    text-transform: capitalize;
+    line-height: 40px;
+ }
+ .wbox input{
+    width: 150px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: white;
+    font-family: "Space Grotesk";
+ }
+ .wbox div{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+ .wbox button{
+    background-color: #fffdfd;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 18px;
+ }
+ .wbox button:hover{
+    background-color: #A020F0;
+    color:white;
+ }
+ .wbox textarea{
+    border-radius: 10px;
+    margin-top: 20px;
+ }
+input:valid{
+    border-bottom: 3px solid green;
+}
+input:invalid{
+    border-bottom: 3px solid red;
+}
+html{scroll-behavior: smooth;}
+
+ /* lena nzid responsivness lil site */
+
+ @media only screen and (max-width: 1320px) {
+    .instructors .boxes img{
+        width: 200px;
+    }
+    .text p{
+        font-size: 18px;
+        width: 70%;
+    }
+    .text h1{
+        font-family: "Space Grotesk";
+        font-weight: 800; 
+        font-size: 36px;
+    }
+    .reviews{
+        height: 100vh;
+     }
+     .reviews h1{
+        font-size: 35px;
+     }
+     .rev1,.rev2,.rev3,.rev4{
+        height: 93%;
+     }
+     .rev img{
+        width: 95px;
+        height: 95px;
+     }
+     header img{
+        transform: translateX(40px);
+     }
+
+  }
+  @media only screen and (max-width: 1100px){
+    .main .bt{
+        display: flex;
+        flex-direction: column;
+    }
+    .main .bt button{
+        margin-top: 20px;
+    }
+    header img{
+        transform: translateX(0px);
+     }
+    .main img{
+        width: 400px;
+     }
+     .main h1{
+        font-size: 33px;
+        line-height: 60px;
+        margin-bottom: 30px;
+     }
+     textarea{
+        width: 80%;
+        height: 40%;
+     }
+     .contact{
+        height: 140vh;
+     }
+     .reviews{
+        height: 130vh;
+     }
+     .rev1,.rev2,.rev3,.rev4{
+        width: 40%;
+        height: 45%;
+     }
+     .reviews .rev h2{
+        font-size: 20px;
+     }
+     .instructors{
+        height: 120vh;
+     }
+     .instructors h1{
+        line-height: 70px;
+     }
+     
+  }
+  @media only screen and (max-width: 1000px){
+    .reviews{
+        height: 160vh;
+     }
+     .main img{
+        width: 250px;
+     }
+     .courses{
+        height: 230vh
+     }
+     .sbs{
+        flex-wrap: wrap;
+     }
+     section .sb1,.sb2,.sb3,.sb4,.sb5,.sb6{
+        width: 40%;
+     }
+     nav{
+        display: none;
+     }
+  }
+  @media only screen and (max-width: 700px){
+    .main img{
+        display: none;
+    }
+    .aboutus h1{
+        font-size: 28px;
+    }
+    .aboutus p{
+        font-size: 18px;
+    }
+    .boxes{
+        flex-direction: column;
+        height: 50%;
+    }
+    .aboutus{
+        height: 130vh;
+    }
+    .box1,.box2,.box3{
+        border: none;
+        flex-direction: column;
+    }
+    .box1:hover,.box2:hover,.box3:hover{
+        border: none;
+    }
+    .info p{
+        font-size: 17px;
+     }
+     .instructors{
+        height: 220vh;
+     }
+     
+  }
+  @media only screen and (max-width: 600px){
+    .courses{
+        height: 440vh
+     }
+     .sbs{
+        flex-wrap: wrap;
+     }
+     section .sb1,.sb2,.sb3,.sb4,.sb5,.sb6{
+        width: 60%;
+     }
+     header h1{
+        font-size: 22px;
+     }
+     .news p{
+        display: none;
+     }
+     .instructors h1{
+        line-height: 220px;
+     }
+     .reviews {
+        height: 220vh;
+     }
+     .contact{
+        height: 210vh;
+     }
+     .wbox div{
+        flex-direction: column;
+     }
+  }
